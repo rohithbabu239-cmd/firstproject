@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="txt1">Prime Number:</label><input id="#txt1" type="number" required></div><br><br>
+        <input type="submit" id="#ick">
+    </div>
+</body>
+<script type="text/javascript">
+    function fun1(x){
+        if(x<=1){
+            return false;
+        }
+        for(let i=2;i<=Math.sqrt(x);i++){
+            if(x%i==0)return false;
+            
+        }
+        return true;
+
+    }
+for (let i=1;i<=10;i++){
+    if (fun1(i)){
+        console.log(i);
+    }
+}
+
+   
+
+</script>
+</html>

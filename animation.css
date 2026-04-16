@@ -1,0 +1,17 @@
+        div{
+            width: 400px;
+            height:400px;
+            font-size:50px;
+            background-color:aqua;
+            position:relative;
+            left:0px;
+            top:0px;
+            animation:myanime 2s 2s infinite alternate;
+        }
+@keyframes myanime{
+    0%{background-color: aqua;left:0px;top:0px ;}
+    25%{background-color:red;left:200px;top:0px;}
+    50%{background-color: rgb(4, 32, 161); left:200px; top:200px ;}
+    75%{background-color: rgb(245, 7, 138); left:0px;top:200px ;}
+    100%{background-color: rgb(255, 0, 0);left:0px top:0px ;}
+}

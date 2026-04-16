@@ -1,0 +1,21 @@
+        div{
+            width: 400px;
+            height:400px;
+            font-size:50px;
+            background-color:aqua;
+            opacity:0.5;
+            position:relative;
+            left:0px;
+            top:0px;
+            transition: width 1s,height 1.5s,font-size 2s,background-color 3s,opacity 2s,left 1s,top 1s;
+        }
+        div:hover{
+            width: 600px;
+            height:600px;
+            font-size:150px;
+            background-color:rgb(255, 145, 0);
+            opacity:1;
+            position:relative;
+            left:100px;
+            top:100px;
+        }

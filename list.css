@@ -1,0 +1,12 @@
+.ordered{
+    list-style-type: decimal-leading-zero;
+}
+.ord{
+    list-style-type: lower-roman;
+}
+.nordered{
+    list-style-type: disc;
+}
+.nord{
+    list-style-type: circle;
+}

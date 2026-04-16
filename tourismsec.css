@@ -1,0 +1,34 @@
+.seccard{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-around;
+    padding-left: 60px;
+    text-align: center;
+    
+
+}
+.secc{
+    background-color: aliceblue;
+    padding:10px;
+    text-align: center;
+   
+}
+.im{
+    height: 100px;
+    width:300px;
+}
+
+.sec{
+    background-image: url("hotel.jpg");
+    height:25vh;
+    width:100vw;
+    background-size: cover
+  
+}
+.but{
+    width:200px;
+    margin-left: 130%;
+    padding-top: 10px;
+    
+}

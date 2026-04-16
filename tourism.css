@@ -1,0 +1,35 @@
+
+.but{
+    color: bisque;
+    font-size: 30px;
+    background-color: rgb(7, 156, 156);
+ 
+}
+.para{
+    color: bisque;
+    font-size: 30px;
+    
+}
+.fir{
+    background-image: url("beautiful.jpg");
+    
+    height:25vh;
+    width:100vw;
+    background-size: cover
+  
+}
+
+.card{
+    background-color: rgb(139, 195, 243);
+    height:35vh;
+    width:100vw;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30%;
+    padding:0px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+   
+}

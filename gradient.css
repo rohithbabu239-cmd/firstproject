@@ -1,0 +1,10 @@
+.li{
+    background-image: linear-gradient(to right,red,green);
+    width:1000px;
+    height:500px;
+}
+.ra{
+    background-image: radial-gradient(purple ,rgb(248, 102, 5));
+    width:1000px;
+    height:500px;
+}

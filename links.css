@@ -1,0 +1,8 @@
+.im{
+    height:240px;
+    width:260px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    border-width:5px;
+}

@@ -1,0 +1,18 @@
+.fir{
+    background-image: url("beautiful.jpg");
+    height:70vh;
+    width:100vw;
+    background-size: cover;
+}
+.para{
+    text-align: Center;
+    text-indent:10px;
+}
+.tt{
+    text-align: center;
+}
+/* .aa{
+    background-color: black;
+    color:white;
+    background-size: cover;
+} */

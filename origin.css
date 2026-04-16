@@ -1,0 +1,14 @@
+div{
+    width:300px;
+    height:200px;
+    background-color: rgb(36, 115, 184);
+    color: brown;
+    box-shadow: 20px 20px 10px 10px red;
+    margin-top: 200px;
+    margin-left:200px;
+
+}
+div:hover{
+    transform:rotate(30deg);
+    transform-origin: top right;
+}
